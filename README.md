@@ -2,6 +2,24 @@
 
 **tellcat** is a tool for displaying messages with ASCII art in the terminal. This README guides you on how to use the installation script or how to run the project manually.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ab53f0e-37e3-411e-9016-5b67ff425a8d" alt="image2">
+</p>
+
+## Requirements
+
+Before you start, ensure you have the following:
+
+- **Rust and Cargo**: Make sure you have Rust and Cargo installed on your system. You can check by running:
+  ```bash
+  rustc --version && cargo --version
+  ```
+  If not installed, visit rustup.rs for installation instructions.
+
+- **ASCII-Compatible Font**: Your terminal should use a font that supports proper rendering of ASCII art. Monospaced fonts like Courier, Consolas, or Monaco are recommended for the best experience.
+
+- **Terminal with ASCII Support**: Ensure your terminal emulator supports ASCII characters. Most modern terminals like Terminal on macOS, cmd or PowerShell on Windows, and gnome-terminal, xterm, or konsole on Linux should work fine.
+  
 ## Installation and Use with Script
 
 To install **tellcat** and run it automatically, follow these steps:
